@@ -1,0 +1,28 @@
+
+.cart{
+    height: 450px;
+    width: 280px;
+    margin-inline: auto;
+    border: 3px solid dodgerblue;
+    border-bottom: none;
+    background-color: #c5c5c5;
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 50% 95%, 0 100%);
+}
+.cart img{
+    height: 220px;
+    width: 250px;
+    padding: 15px 15px;
+    padding-bottom: 0px;
+}
+.armour-info{
+    padding-left: 10px;
+}
+.cart p{
+    margin: 0px;
+}
+.add-to-cart{
+    padding: 0 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
